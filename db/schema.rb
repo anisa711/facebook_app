@@ -19,9 +19,9 @@ ActiveRecord::Schema.define(version: 20150125134159) do
     t.date     "dob"
     t.string   "password"
     t.string   "gender"
+    t.string   "lastname"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "lastname"
   end
 
 end

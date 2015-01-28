@@ -6,6 +6,7 @@ class CreateRegistrations < ActiveRecord::Migration
       t.date :dob
       t.string :password
       t.string :gender
+      t.string :lastname
 
       t.timestamps
     end
