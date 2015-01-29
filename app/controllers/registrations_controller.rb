@@ -12,7 +12,7 @@ class RegistrationsController < ApplicationController
   	#@registration = Registration.create(params[:name], params[:email], params[:dob], params[:password], params[:gender])
     @registration = Registration.new(registration_params)
   	if @registration.save
-  	   redirect_to 'list_register'
+  	   redirect_to 'insertion' 
     else
     	render 'new'
     end
